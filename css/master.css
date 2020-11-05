@@ -7,5 +7,35 @@
 
 .conteiner{
   margin:0 auto;
-  width: 1000px;
+  width: 1600px;
+  position: relative;
+  text-align: center;
+}
+
+.immagine-catalogo{
+  display: inline-block;
+  position: relative;
+}
+
+.badge-sconto{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #347235;
+}
+
+ .row .immagine-catalogo:nth-child(2) .badge-sconto{
+  background-color: red;
+}
+
+.cuore{
+  display: none;
+  font: 20px;
+  margin: 0 auto;
+}
+
+ .immagine-catalogo:hover .cuore{
+  display: block;
+  color: red;
 }
